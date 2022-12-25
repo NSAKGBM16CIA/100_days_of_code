@@ -1,0 +1,92 @@
+
+<!DOCTYPE HTML>
+<!--
+	Fractal by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>OceanReader|PDFtoAudio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ 		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<noscript><link rel="stylesheet" href="static/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+<!--	Navigation-->
+<!--TODO: // Fix navbar to be in the blue div of the site-->
+     <div class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background-color: #4696e5;">
+      <a class="navbar-brand">Ocean Reader</a>
+        <a class="ml-auto nav-item" style="text-align:left;" href="https://wa.me/+13102413767">Contact Me</a>
+
+  </div>
+
+
+		<!-- Header -->
+			<header id="header">
+				<div class="image phone">
+<!--					TODO: sometimes the image is not showing/changing when I upload a new pdf-->
+					<div class="inner"><img src="static/images/cover.jpg" alt="Upload Book" /></div>
+				</div>
+				<div class="content">
+					<h1>OceanReader</h1>
+					<p>Save Time! Upload your Book | Download as Audio! <br />
+					I'll read it for you, while you go about your day! </p>
+<!--TODO:// hide the part that says no file chosen and/or otherwise align choose file and upload button-->
+					<form method="post" enctype="multipart/form-data">
+						<input type="file" name="pdf_file" id="upload_file" accept=".pdf" />
+						<button type="submit"  class="button primary icon solid fa-upload">Upload PDF</button>
+					</form>
+
+					<ul class="actions">
+						<li>
+<!--	TODO:// Dropdown is not in a visible-->
+							<div class="dropdown">
+							<button class="btn btn-info icon solid fa-language dropdown-toggle" type="button" data-toggle="dropdown">Language
+							<span class="caret"></span></button>
+							<ul class="dropdown-menu">
+							  <li><a href="#">English</a></li>
+							  <li><a href="#">Spanish</a></li>
+							  <li><a href="#">Chinese</a></li>
+							  <li><a href="#">Portuguese</a></li>
+							  <li><a href="#">Arabic</a></li>
+							</ul>
+						  </div>
+						</li>
+						<li><a href="{{url_for('open_pdf')}}" class="button icon solid fa-stream">Start Conversion</a></li>
+						<li><a href="#" class="button primary icon solid fa-download">Download Audio</a></li>
+					</ul>
+				</div>
+
+			</header>
+
+
+		<!-- Footer -->
+<!--TODO: // place footer in the blue section perhaps with white icons-->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands ion-social-instagram"><span class="label">Instagram</span></a></li>
+				</ul>
+				<p class="copyright">&copy; Untitled. Credits: <a href="http://html5up.net">HTML5 UP</a></p>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="static/assets/js/jquery.min.js"></script>
+			<script src="static/assets/js/jquery.scrolly.min.js"></script>
+			<script src="static/assets/js/browser.min.js"></script>
+			<script src="static/assets/js/breakpoints.min.js"></script>
+			<script src="static/assets/js/util.js"></script>
+			<script src="static/assets/js/main.js"></script>
+<!--	<script src=”https://code.jquery.com/jquery-3.2.1.slim.min.js” integrity=”sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN” crossorigin=”anonymous”></script>-->
+<!--	<script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js integrity=”sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q” crossorigin=”anonymous”></script>-->
+<!--	<script src=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js” integrity=”sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl” crossorigin=”anonymous”></script>-->
+<!--	<link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>-->
+
+	</body>
+</html>

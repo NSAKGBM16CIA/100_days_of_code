@@ -1,0 +1,232 @@
+*The Fourier Transform, explained in one sentence (revolutionanalytics.com)*
+https://blog.revolutionanalytics.com/2014/01/the-fourier-transform-explained-in-one-sentence.html
+264*A formula for the n’th digit of 𝜋 and 𝜋^n (arxiv.org)*
+https://arxiv.org/abs/2201.12601
+129*Remastering Colin McRae Rally 3 with SilentPatch (cookieplmonster.github.io)*
+https://cookieplmonster.github.io/2023/01/15/remastering-colin-mcrae-rally-3-silentpatch/
+18*Stripe clawed back pension contributions after staff cuts (businesspost.ie)*
+https://www.businesspost.ie/news/stripe-clawed-back-pension-contributions-after-staff-cuts/
+123*How I Ruined My SEO (johnnyreilly.com)*
+https://johnnyreilly.com/2023/01/15/how-i-ruined-my-seo
+64*Supply Chain Attack Using PyPI Packages “Colorslib”, “Httpslib”, and “Libhttps” (fortinet.com)*
+https://www.fortinet.com/blog/threat-research/supply-chain-attack-using-identical-pypi-packages-colorslib-httpslib-libhttps
+72*Skio (YC S20) Is Hiring (skio.com)*
+https://skio.com/careers/
+58*Show HN: Create your own video clips with Stable Diffusion (neuralframes.com)*
+https://www.neuralframes.com
+60*Porth, It's Like Forth but in Python (gitlab.com/tsoding)*
+https://gitlab.com/tsoding/porth
+93*SLT – A Common Lisp Language Plugin for Jetbrains IDE Lineup (github.com/enerccio)*
+https://github.com/Enerccio/SLT
+176*Ubuntu 22.04 LTS servers and phased apt updates (utoronto.ca)*
+https://utcc.utoronto.ca/~cks/space/blog/linux/Ubuntu2204ServerPhasedUpdates
+32*Show HN: AI-powered code correction that teaches you along the way (useadrenaline.com)*
+https://useadrenaline.com
+243*Ask HN: How do you trust that your personal machine is not compromised?*
+item?id=34388866
+43*Single-file scripts that download their dependencies (dbohdan.com)*
+https://dbohdan.com/scripts-with-dependencies
+71*Go FOSS: Information is power (gofoss.net)*
+https://gofoss.net/
+35*Constrain – Interactive figures using declarative constraint solving (github.com/andrewcmyers)*
+https://github.com/andrewcmyers/constrain
+3*How to improve Python packaging, or why 14 tools are at least 12 too many (chriswarrick.com)*
+https://chriswarrick.com/blog/2023/01/15/how-to-improve-python-packaging/
+154*I'm Shadow Banned by DuckDuckGo (and Bing) (daverupert.com)*
+https://daverupert.com/2023/01/shadow-banned-by-duckduckgo-and-bing/
+11*Netflix to open $900M facility at former Fort Monmouth Army base in New Jersey (foxbusiness.com)*
+https://www.foxbusiness.com/economy/netflix-open-900m-facility-former-fort-monmouth-army-base-new-jersey
+132*Running KDE Plasma on RISC-V VisionFive-2 (cordlandwehr.wordpress.com)*
+https://cordlandwehr.wordpress.com/2023/01/14/running-plasma-on-visionfive-2/
+114*The Bibites: Artificial Life Simulation (leocaussan.itch.io)*
+https://leocaussan.itch.io/the-bibites
+183*Faster than the filesystem (2021) (sqlite.org)*
+https://www.sqlite.org/fasterthanfs.html
+89*More Than 150 Organizations Call to Close Guantánamo on 21st Anniversary (theintercept.com)*
+https://theintercept.com/2023/01/11/guantanamo-bay-letter-biden/
+74*Server BMCs can need to be rebooted every so often (utoronto.ca)*
+https://utcc.utoronto.ca/~cks/space/blog/sysadmin/BMCsCanNeedRebooting
+45*The joy of sets (prospectmagazine.co.uk)*
+https://www.prospectmagazine.co.uk/arts-and-books/the-joy-of-sets
+74*Bayesian statistics and machine learning: How do they differ? (columbia.edu)*
+https://statmodeling.stat.columbia.edu/2023/01/14/bayesian-statistics-and-machine-learning-how-do-they-differ/
+4*NYPD can use more than 15,000 cameras to track people using facial recognition (amnesty.org)*
+https://www.amnesty.org/en/latest/news/2021/06/scale-new-york-police-facial-recognition-revealed/
+9*Hype around quantum computing recedes over lack of practical uses (ft.com)*
+https://www.ft.com/content/d64e45b4-692a-429e-bc64-146303ec7fdf
+22*A mental health tech company ran an AI experiment on real users (nbcnews.com)*
+https://www.nbcnews.com/tech/internet/chatgpt-ai-experiment-mental-health-tech-app-koko-rcna65110
+126 *Wobbly clock (somethingorotherwhatever.com)*
+https://somethingorotherwhatever.com/wobble-clock/
+569
+ *A cab ride I'll never forget (1999) (kentnerburn.com)*
+https://kentnerburn.com/the-cab-ride-ill-never-forget/
+875
+ *Heat pumps of the 1800s are becoming the technology of the future (knowablemagazine.org)*
+https://knowablemagazine.org/article/technology/2023/heat-pumps-becoming-technology-future
+62
+ *Rust vs. C++ Formatting (brevzin.github.io)*
+https://brevzin.github.io/c++/2023/01/02/rust-cpp-format/
+34
+ *Reverse engineering a neural network's clever solution to binary addition (cprimozic.net)*
+https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/
+435
+ *Intel Core i9-13900T CPU benchmarks show faster than 12900K 125W performance (wccftech.com)*
+https://wccftech.com/intel-core-i9-13900t-cpu-benchmarks-show-faster-than-12900k-125w-performance-at-35w/
+54
+ *Will Floating Point 8 Solve AI/ML Overhead? (semiengineering.com)*
+https://semiengineering.com/will-floating-point-8-solve-ai-ml-overhead/
+31
+ *Conditional CSS (ishadeed.com)*
+https://ishadeed.com/article/conditional-css/
+41
+ *Show HN: Cross-Platform GitHub Action (github.com/marketplace)*
+https://github.com/marketplace/actions/cross-platform-action
+21
+ *Show HN: Sketch – AI code-writing assistant that understands data content (github.com/approximatelabs)*
+https://github.com/approximatelabs/sketch
+158
+ *Project Mage is an effort to build a power-user environment in Common Lisp (project-mage.org)*
+https://project-mage.org
+13
+ *Godot for AA/AAA game development – What's missing? (godotengine.org)*
+https://godotengine.org/article/whats-missing-in-godot-for-aaa/
+194
+ *TAB electronics books (worldradiohistory.com)*
+https://worldradiohistory.com/BOOKSHELF-ARH/Bookshelf_TAB.htm
+34
+ *Late Hokusai: Thought, technique, society (britishmuseum.org)*
+https://www.britishmuseum.org/research/projects/late-hokusai-thought-technique-society
+23
+ *EasyPost (YC S13) Is Hiring (easypost.com)*
+https://www.easypost.com/careers
+23
+ *GPU Caching Compared Among AMD, Intel UHD, Apple M1 (chipsandcheese.com)*
+https://chipsandcheese.com/2022/05/21/igpu-cache-setups-compared-including-m1/
+6
+ *Marriage rules in Minoan Crete revealed by ancient DNA analysis (phys.org)*
+https://phys.org/news/2023-01-marriage-minoan-crete-revealed-ancient.html
+8
+ *Crows of Karachi (orionmagazine.org)*
+https://orionmagazine.org/article/crows-of-karachi-pakistan/
+4
+ *Ending World History in 1763? (ageofrevolutions.com)*
+https://ageofrevolutions.com/2022/12/12/ending-world-history-part-one-in1763/
+184
+ *Show HN: Terra Firma, a playable erosion simulation (steampowered.com)*
+https://store.steampowered.com/app/1482770/Terra_Firma/
+17
+ *Adventures in Mastoland (searchtodon.social)*
+https://searchtodon.social/Adventures-in-Mastoland.html
+3
+ *The hardest part of being a Junior Developer (rachsmith.com)*
+https://rachsmith.com/the-hardest-part-of-being-a-jnr/
+137
+ *Granian – a Rust HTTP server for Python applications (github.com/emmett-framework)*
+https://github.com/emmett-framework/granian
+68
+ *Rendering like it's 1996 – Bitmap fonts and DOS (marioslab.io)*
+https://marioslab.io/posts/rendering-like-its-1996/dos-nostalgia/
+23
+ *Using paleogenomics to elucidate 10k years of immune system evolution (pasteur.fr)*
+https://www.pasteur.fr/en/press-area/press-documents/using-paleogenomics-elucidate-10000-years-immune-system-evolution
+15
+ *Brad Feld: I Don't Hate Crypto (feld.com)*
+https://feld.com/archives/2023/01/i-dont-hate-crypto/
+332
+ *The IAB loves tracking users but hates users tracking them (shkspr.mobi)*
+https://shkspr.mobi/blog/2023/01/the-iab-loves-tracking-users-but-it-hates-users-tracking-them/
+23
+ *A Supermarket Visit Brought Down the Soviet Union (beelineblogger.blogspot.com)*
+http://beelineblogger.blogspot.com/2016/01/how-supermarket-visit-brought-down.html
+52
+ *Speeding up the JavaScript ecosystem part 2 – Module Resolution (marvinh.dev)*
+https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-2/
+40
+ *Hyundai Head Unit Hacking (xakcop.com)*
+https://xakcop.com/post/hyundai-hack-2/
+97
+ *Tailscale bug allowed a person to share nodes from other tailnets without auth (tailscale.com)*
+https://tailscale.com/security-bulletins/#ts-2023-001/
+88
+ *The ThinkPad TrackPoint tried to build a better mouse (2020) (theverge.com)*
+https://www.theverge.com/circuitbreaker/2020/6/30/21292182/thinkpad-trackpoint-mouse-nub-button-trackpad-challenges-design-user-input
+30
+ *A flurry of new studies identifies causes of the Industrial Revolution (economist.com)*
+https://www.economist.com/graphic-detail/2023/01/17/a-flurry-of-new-studies-identifies-causes-of-the-industrial-revolution
+32
+ *In the past, I've had students call my problem sets “emotionally trying” (twitter.com/shengwuli)*
+https://twitter.com/shengwuli/status/1614637276113563648
+67
+ *Dell Tried to Hide Bad Capacitors Problem 2003-2005 (2010) (ieee.org)*
+https://spectrum.ieee.org/dell-tried-to-hide-bad-capacitors-problem
+31
+ *Let's build GPT: from scratch, in code, spelled out by Andrej Karpathy [video] (youtube.com)*
+https://www.youtube.com/watch?v=kCc8FmEb1nY
+270
+ *Ruby 3.2’s YJIT is Production-Ready (shopify.engineering)*
+https://shopify.engineering/ruby-yjit-is-production-ready
+403
+ *Show HN: Plus – Self-updating screenshots (plusdocs.com)*
+https://www.plusdocs.com/
+218
+ *A Stack of Feed-Forward Layers Does Surprisingly Well on ImageNet (arxiv.org)*
+https://arxiv.org/abs/2105.02723
+21
+ *Ask HN: Has anyone worked at the US National Labs before?*
+item?id=34414527
+208
+ *I Am the Ghost Here (guernicamag.com)*
+https://www.guernicamag.com/i-am-the-ghost-here/
+38
+ *The art of knowing when to quit (jim-nielsen.com)*
+https://blog.jim-nielsen.com/2023/art-of-knowing-when-to-quit/
+104
+ *EV batteries alone could satisfy short-term grid storage demand as early as 2030 (nature.com)*
+https://www.nature.com/articles/s41467-022-35393-0
+193
+ *We could stumble into AI catastrophe (effectivealtruism.org)*
+https://forum.effectivealtruism.org/posts/yjm5CW9JdwBTFZB2B/how-we-could-stumble-into-ai-catastrophe
+24
+ *Is a venture studio right for you? (steveblank.com)*
+https://steveblank.com/2023/01/17/is-a-venture-studio-right-for-you/
+43
+ *How do AIs' political opinions change as they get smarter and better-trained? (astralcodexten.substack.com)*
+https://astralcodexten.substack.com/p/how-do-ais-political-opinions-change
+64
+ *ChrysaLisp (github.com/vygr)*
+https://github.com/vygr/ChrysaLisp
+84
+ *Show HN: Summate.it – Quickly summarize web articles with OpenAI (summate.it)*
+https://summate.it/?v2
+10
+ *Ask HN: Techwise, how did TikTok get so good?*
+item?id=34421594
+22
+ *Ending World History in 1763? (ageofrevolutions.com)*
+https://ageofrevolutions.com/2022/12/12/ending-world-history-part-one-in1763/
+16
+ *Patterns (YC S21) is hiring (patterns.app)*
+https://www.patterns.app/
+11
+ *Cultivating Depth and Stillness in Research (andymatuschak.org)*
+https://andymatuschak.org/stillness/
+63
+ *Show HN: A tool for motion-capturing 3D characters using a VR headset (diegomacario.github.io)*
+https://diegomacario.github.io/Hands-In-The-Web/public/index.html
+150
+ *My grandfather was almost shot down at the White House (2018) (nones-leonard.medium.com)*
+https://nones-leonard.medium.com/flying-high-8536fa403324
+317
+ *Git security vulnerabilities announced (github.blog)*
+https://github.blog/2023-01-17-git-security-vulnerabilities-announced-2/
+19
+ *The Metapict Blog – TikZ like figures using Racket (soegaard.github.io)*
+https://soegaard.github.io/blog/metapict/
+93
+ *Common Lisp and Music Composition (ldbeth.sdf.org)*
+https://ldbeth.sdf.org/articles/cm.html
+53
+ *Show HN: Stack-chan – Open-source companion robot easy to assemble and customize (github.com/meganetaaan)*
+https://github.com/meganetaaan/stack-chan
+17

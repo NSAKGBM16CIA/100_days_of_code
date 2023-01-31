@@ -1,0 +1,41 @@
+ <link rel="stylesheet" href="static/css/gallery.css">
+ <link rel = "stylesheet" href="static/vendor/bootstrap/css/bootstrap.min.css">
+{% block content %}
+  <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#">Click-To-Zoom Gallery</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto ml-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{ url_for('home')}}">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{ url_for('gallery')}}">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{ url_for('pricing')}}">Contact&Pricing</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+<div id="gallery">
+  {% for image in image_list %}
+  <div>
+    <img src="data:;base64,{{ image }}" />
+    <a href="#lightbox-{{ loop.index }}">{{ loop.index }}</a>
+  </div>
+  {% endfor %}
+</div>
+
+{% for image in image_list %}
+<div class="lightbox" id="lightbox-{{ loop.index }}">
+  <div class="content"><img src="data:;base64,{{ image }}" />
+      <div class="title">With ♥️ by <b>#AndreaPhotography </b>-Reserva 098-418-3298</div>
+    <a class="close" href="#gallery-thumb-{{loop.index}}"></a>
+  </div>
+</div>
+{% endfor %}
+{% endblock %}
+{% include "footer.html" %}

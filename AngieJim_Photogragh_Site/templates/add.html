@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" />
+    <meta name="description" content="This is a my version of mi amiga Andrea's canva site. Andrea is a professional photographer, model, market guru" />
+    <meta name="author" content="Your_Gardener Twitter:@hiegoloiq" />
+    <title>AngieJim Professional Photography</title>
+    <link rel="icon" type="image/x-icon" href="static/assets/andrea.ico" />
+	<link rel="stylesheet" href="static/css/gallery_b.css">
+	<link rel = "stylesheet" href="static/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+    <style>
+          .img {
+          width: 100px;
+          height: 100px;
+          margin-right: 106px;
+          }
+    </style>
+
+<body>
+{% if current_user.is_authenticated %}
+{% block content %}
+<div style="margin:20px">
+    <h1>Add a Photo</h1>
+    <hr>
+    <form action="{{url_for('add_photo')}}" method="post" enctype="multipart/form-data">
+        <p><h3><label>Load Image</label></h3></p>
+        <input name="image_url" type="file" datatype="jpeg">
+
+        <input type="submit">
+    </form>
+    <button onclick="location.href='{{url_for('logout')}}'">Logout</button>
+
+
+<hr>
+    <div class="col-md-10 col-lg-8 col-xl-7" >
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+            {%for message in messages %}
+            <p>{{message}}</p>
+            {% endfor %}
+            {% endif %}
+            {% endwith %}
+
+
+        {% if image_list|length != 0 %}
+         <table class="col-md-10 col-lg-8 col-xl-7">
+            <tr>
+             {% for image in image_list: %}
+        <div class="mx-auto content">
+            {% if loop.index %4 != 0: %}
+            <td>
+             <img class="img" src="data:;base64,{{ image }}"/>
+            <p>
+                <form action="{{ url_for('delete', id=loop.index) }}" method="post" style="margin-left:1em">
+                  <button type="submit" class="btn btn-danger">Delete</button>
+              </form>
+                </form>
+            </p>
+
+            </td>
+        </div>
+            {% else %}
+            <tr>
+              <td>
+             <img class="img" src="data:;base64,{{ image }}"/>
+            <p>
+                <form action="{{ url_for('delete', id=loop.index) }}" method="post" style="margin-left:1em">
+                  <button type="submit" class="btn btn-danger">Delete</button>
+              </form>
+            </p>
+            </td>
+         </tr>
+             {% endif %}
+         {% endfor %}
+            </tr>
+        </table>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+{%else%}
+<p>
+    <h3>
+    You need to be logged in to make changes!
+    <p><form action="{{ url_for('login')}}"><input type="submit" value="Login"></form></p>
+</h3>
+</p>
+{% endif %}
+</body>
+</html>
